@@ -1,0 +1,16 @@
+{
+  "name": "aula2-type-script",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "start":"node .",
+    "build": "tsc",
+    "dev": "tsx src/index.ts" 
+  
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
